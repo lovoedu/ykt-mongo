@@ -5,7 +5,7 @@ var DBRef = require('mongodb').DBRef;
 const path = require("path");
 const config = require(path.resolve("./package.json"));
 var url = config.db.url+"/"+config.db.dbname;
-
+console.log(1111111111);
 var arySort = function(ary){
     ary.sort(function(a,b){
         if(a._id < b._id){
